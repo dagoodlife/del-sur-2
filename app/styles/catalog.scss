@@ -1,0 +1,216 @@
+#catalogBanner{
+	background: url('/assets/images/ctalog-main-bk.jpg');
+	width: 100%;
+	padding-bottom: 40px;
+
+	.catalog-banner-title{
+		text-align: center;
+		margin-top: 20%;
+
+		h3, h1{
+			font-family: 'Amatic SC', cursive;
+		}
+
+		h3{
+			font-size: 35px;
+		}
+
+		h1{
+			font-size: 65px;
+			color: #fff;
+			margin-top: -1%;
+		}
+	}
+
+	.list-catalog-banner-categories{
+		list-style-type: none;
+
+		li{
+			text-align: center;
+			display: inline-block;
+			max-width: 12.1%;
+			margin: 0 1%;
+			padding: 0;
+			img{
+				width: 80%;
+			}
+			p{
+				font-style: italic;
+				color: #fff;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+.catalog-title-banner{
+  height: 140px !important;
+	h1{
+		text-align: center;
+		color: #fff;
+		font-size: 100px;
+		font-family: 'Amatic SC', cursive;
+		padding: 15px;
+		margin-bottom: 0;
+	    margin-top: 0;
+	}
+}
+
+.catalog-intro {
+  margin-bottom: 60px;
+}
+
+#catalogFruitTitleWrapper{
+  background: url('/assets/images/catalog-cta-bg.jpg');
+  margin: 0 !important;
+}
+
+#catalogPeruTitleWrapper{
+  background: url('/assets/images/catalog-cta-peru-bg.jpg');
+  margin: 0 !important;
+}
+
+#catalogBakingTitleWrapper {
+  background: url('/assets/images/catalog-cta-baking-bg.jpg');
+  margin: 0 !important;
+}
+
+#catalogBeansTitleWrapper {
+  background: url('/assets/images/catalog-cta-beans-bg.jpg');
+  margin: 0 !important;
+}
+
+#catalogSaltyTitleWrapper{
+  background: url('/assets/images/catalog/banners/salty-title.png');
+  margin: 0 !important;
+}
+
+#catalogOilTitleWrapper{
+  background: url('/assets/images/catalog/banners/oil-title.png');
+  margin: 0 !important;
+}
+
+#catalogMilkTitleWrapper {
+  background: url('/assets/images/catalog/banners/milk-title.png');
+  margin: 0 !important;
+}
+
+#catalogRiceTitleWrapper {
+  background: url('/assets/images/catalog/banners/rice-title.png');
+  margin: 0 !important;
+}
+
+#catalogSugarTitleWrapper{
+  background: url('/assets/images/catalog/banners/sugar.png');
+  margin: 0 !important;
+}
+
+#catalogPastaTitleWrapper{
+  background: url('/assets/images/catalog/banners/pasta-title.png');
+  margin: 0 !important;
+}
+
+#catalogCondimentsTitleWrapper {
+  background: url('/assets/images/catalog/banners/condiments-title.png');
+  margin: 0 !important;
+}
+
+#catalogSweetsTitleWrapper {
+  background: url('/assets/images/catalog/banners/sweets.png');
+  margin: 0 !important;
+}
+
+#catalogPeppersTitleWrapper {
+  background: url('/assets/images/catalog/banners/spices-title.png');
+  margin: 0 !important;
+}
+
+#catalogFrozenTitleWrapper {
+  background: url('/assets/images/catalog/banners/frozen-title.png');
+  margin: 0 !important;
+}
+
+
+
+
+
+.catalog-categories-body{
+  padding-top: 70px;
+  padding-bottom: 100px;
+
+  margin: 0;
+
+  .ind-product-wrapper{
+	text-align: center;
+
+	h5{
+	  color: #d25a5d;
+	  font-size: 22px;
+	  font-weight: 100;
+	}
+  }
+}
+
+#displayProductsFruitWrapper {
+  background: url('/assets/images/catalog-product-bk.jpg');
+}
+
+#displayProductsPeruWrapper {
+  background: url('/assets/images/catalog-product-peru-bk.jpg');
+}
+
+#displayProductsBakingWrapper {
+  background: url('/assets/images/catalog-product-baking-bk.jpg');
+  background-position: 0 -200px;
+}
+
+#displayProductsBeansWrapper {
+  background: url('/assets/images/catalog-product-beans-bk.jpg');
+}
+
+#displayProductsSaltyWrapper {
+  background: url('/assets/images/catalog/body/salty.png');
+  background-position: 0 -500px;
+}
+
+#displayProductsOilWrapper {
+  background: url('/assets/images/catalog/body/oil.png');
+  background-position: 0 -300px;
+}
+
+#displayProductsMilkWrapper {
+  background: url('/assets/images/catalog/body/milk.png');
+  background-position: 0 -500px;
+}
+
+#displayProductsRiceWrapper {
+  background: url('/assets/images/catalog/body/rice.png');
+  background-position: 0 -400px;
+}
+
+#displayProductsSugarWrapper {
+  background: url('/assets/images/catalog/body/sugar.png');
+}
+
+#displayProductsPastaWrapper {
+  background: url('/assets/images/catalog/body/pasta.png');
+  background-position: 0 -200px;
+}
+
+#displayProductsCondimentsWrapper {
+  background: url('/assets/images/catalog/body/condiments.png');
+}
+
+#displayProductsSweetsWrapper {
+  background: url('/assets/images/catalog/body/sweets.png');
+}
+
+#displayProductsPeppersWrapper {
+   background: url('/assets/images/catalog/body/spices.png');
+ }
+
+#displayProductsFrozenWrapper {
+  background: url('/assets/images/catalog/body/frozen.png');
+}
+
+

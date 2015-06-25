@@ -1,0 +1,47 @@
+	<div id="contactComponentWrapper" class="{{className}}">
+		<div class="row">
+			<div class="container">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="section-title">
+						<h2>Contact Us</h2>
+						<div class="section-title-underline"></div>
+					</div>
+					<div class="section-content">
+						<p class="section-description">Now that you know a bit about us {{#link-to 'contact'}}Contact Us{{/link-to}} below, we love
+listening to what our customers have to say!</p>
+						<div class="contact-info-wrapper">
+							<ul class="list-contact-info">
+							  <li><i class="contact-icon glyphicon glyphicon-envelope"></i></li>
+							  <li><i class="contact-icon glyphicon glyphicon-globe"></i></li>
+							  <li><i class="contact-icon glyphicon glyphicon-phone"></i></li>
+							</ul>
+							<ul class="list-delsure-info">
+								<li>contact@delsurusa.com</li>
+								<li>7975 NorthWest 154th Street Suite 310<br/>Miami Lakes
+                    FL 33016</li>
+								<li>(305) 468-1489</li>
+							</ul>
+						</div>
+						<div class="contact-form-wrapper">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1">
+									<form>
+										<div class="form-group">
+											{{input value=name placeholder="Name" class="form-control"}}
+										</div>
+										<div class="form-group">
+											{{input type="email"  placeholder="Email" class="form-control"}}
+										</div>
+										<div class="form-group">
+											{{textarea value=name placeholder="Your Message" class="form-control"}}
+										</div>
+                      <button class="contact-form-btn">Send</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
